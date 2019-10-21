@@ -1,0 +1,372 @@
+{
+  "driveDisplayName": "",
+  "visual": {
+    "image": "pkg://bridge.svg",
+    "useCrocClips": true,
+    "width": 524.41,
+    "height": 343.057,
+    "pinDist": 15,
+    "pinBlocks": [
+      {
+        "x": 137.49,
+        "y": 10,
+        "labels": [
+          "SCL"
+        ]
+      },
+      {
+        "x": 153.88,
+        "y": 10,
+        "labels": [
+          "SDA"
+        ]
+      },
+      {
+        "x": 170.27,
+        "y": 10,
+        "labels": [
+          "AREF"
+        ]
+      },
+      {
+        "x": 186.66,
+        "y": 10,
+        "labels": [
+          "GND2"
+        ]
+      },
+      {
+        "x": 203.05,
+        "y": 10,
+        "labels": [
+          "D13"
+        ]
+      },
+      {
+        "x": 219.44,
+        "y": 10,
+        "labels": [
+          "D12"
+        ]
+      },
+      {
+        "x": 235.83,
+        "y": 10,
+        "labels": [
+          "D11"
+        ]
+      },
+      {
+        "x": 252.22,
+        "y": 10,
+        "labels": [
+          "D10"
+        ]
+      },
+      {
+        "x": 268.61,
+        "y": 10,
+        "labels": [
+          "D9"
+        ]
+      },
+      {
+        "x": 285,
+        "y": 10,
+        "labels": [
+          "D8"
+        ]
+      },
+      {
+        "x": 310.5,
+        "y": 10,
+        "labels": [
+          "D7"
+        ]
+      },
+      {
+        "x": 326.89,
+        "y": 10,
+        "labels": [
+          "D6"
+        ]
+      },
+      {
+        "x": 343.28,
+        "y": 10,
+        "labels": [
+          "D5"
+        ]
+      },
+      {
+        "x": 359.67,
+        "y": 10,
+        "labels": [
+          "D4"
+        ]
+      },
+      {
+        "x": 376.06,
+        "y": 10,
+        "labels": [
+          "D3"
+        ]
+      },
+      {
+        "x": 392.45,
+        "y": 10,
+        "labels": [
+          "D2"
+        ]
+      },
+      {
+        "x": 408.84,
+        "y": 10,
+        "labels": [
+          "TX_D1"
+        ]
+      },
+      {
+        "x": 425.236,
+        "y": 10,
+        "labels": [
+          "RX_D0"
+        ]
+      },
+      {
+        "x": 212.89,
+        "y": 318.5,
+        "labels": [
+          "IOREF"
+        ]
+      },
+      {
+        "x": 229.28,
+        "y": 318.5,
+        "labels": [
+          "RST"
+        ]
+      },
+      {
+        "x": 245.67,
+        "y": 318.5,
+        "labels": [
+          "3.3V"
+        ]
+      },
+      {
+        "x": 262.06,
+        "y": 318.5,
+        "labels": [
+          "5V"
+        ]
+      },
+      {
+        "x": 278.45,
+        "y": 318.5,
+        "labels": [
+          "GND"
+        ]
+      },
+      {
+        "x": 294.84,
+        "y": 318.5,
+        "labels": [
+          "GND1"
+        ]
+      },
+      {
+        "x": 311.23,
+        "y": 318.5,
+        "labels": [
+          "VIN"
+        ]
+      },
+      {
+        "x": 344.01,
+        "y": 318.5,
+        "labels": [
+          "A0"
+        ]
+      },
+      {
+        "x": 360.4,
+        "y": 318.5,
+        "labels": [
+          "A1"
+        ]
+      },
+      {
+        "x": 376.79,
+        "y": 318.5,
+        "labels": [
+          "A2"
+        ]
+      },
+      {
+        "x": 393.18,
+        "y": 318.5,
+        "labels": [
+          "A3"
+        ]
+      },
+      {
+        "x": 409.57,
+        "y": 318.5,
+        "labels": [
+          "A4"
+        ]
+      },
+      {
+        "x": 425.96,
+        "y": 318.5,
+        "labels": [
+          "A5"
+        ]
+      }
+    ],
+    "leds": [
+      {
+        "x": 176,
+        "y": 76,
+        "w": 8,
+        "h": 6,
+        "color": "#ff0000",
+        "label": "LED"
+      },
+      {
+        "x": 35,
+        "y": 72,
+        "w": 32,
+        "h": 32,
+        "color": "neopixel",
+        "label": "NEOPIXEL"
+      },
+      {
+        "x": 176,
+        "y": 86,
+        "w": 8,
+        "h": 6,
+        "color": "#ff0000",
+        "label": "LEDON"
+      },
+      {
+        "x": 176,
+        "y": 76,
+        "w": 8,
+        "h": 6,
+        "color": "#ff0000",
+        "label": "RXLED"
+      },
+      {
+        "x": 176,
+        "y": 106,
+        "w": 8,
+        "h": 6,
+        "color": "#ff0000",
+        "label": "TXLED"
+      }
+    ],
+    "touchPads": [],
+    "buttons": [],
+    "reset": {
+      "x": 14.5,
+      "y": 295.5,
+      "w": 24,
+      "h": 24
+    }
+  },
+  "gpioPinMap": {
+    "SCL": "SCL",
+    "SDA": "SDA",
+    "AREF": "AREF",
+    "GND2": "GND2",
+    "D13": "D13",
+    "D12": "D12",
+    "D11": "D11",
+    "D10": "D10",
+    "D9": "D9",
+    "D8": "D8",
+    "D7": "D7",
+    "D6": "D6",
+    "D5": "D5",
+    "D4": "D4",
+    "D3": "D3",
+    "D2": "D2",
+    "TX_D1": "TX_D1",
+    "TX": "TX_D1",
+    "D1": "TX_D1",
+    "JACK_TX": "TX_D1",
+    "RX_D0": "RX_D0",
+    "RX": "RX_D0",
+    "D0": "RX_D0",
+    "IOREF": "IOREF",
+    "RST": "RST",
+    "3.3V": "3.3V",
+    "5V": "5V",
+    "GND": "GND",
+    "GND1": "GND1",
+    "VIN": "VIN",
+    "A0": "A0",
+    "A1": "A1",
+    "A2": "A2",
+    "A3": "A3",
+    "A4": "A4",
+    "A5": "A5",
+    "LED": "LED",
+    "NEOPIXEL": "NEOPIXEL",
+    "LEDON": "LEDON",
+    "RESETBTN": "RESETBTN",
+    "RXLED": "RXLED",
+    "TXLED": "TXLED",
+    "VCC": "VCC",
+    "MISO": "MISO",
+    "MOSI": "MOSI",
+    "SCK": "SCK",
+    "GNDSPI": "GNDSPI",
+    "DISPLAY_CS": "A2",
+    "DISPLAY_SCK": "SCK",
+    "DISPLAY_MOSI": "MOSI",
+    "DISPLAY_DC": "A5",
+    "DISPLAY_RST": "A4",
+    "DISPLAY_MISO": "MISO",
+    "ACCELEROMETER_INT": "D2",
+    "LCD_RESET": "D7",
+    "LCD_ENABLE": "D8",
+    "LCD_DATALINE4": "D9",
+    "LCD_DATALINE5": "D10",
+    "LCD_DATALINE6": "D11",
+    "LCD_DATALINE7": "D12"
+  },
+  "groundPins": [
+    "GND2",
+    "GND",
+    "GND1",
+    "GNDSPI"
+  ],
+  "threeVoltPins": [
+    "3.3V",
+    "VCC"
+  ],
+  "fiveVoltPins": [
+    "5V"
+  ],
+  "i2cPins": {
+    "SDA": "SDA",
+    "SCL": "SCL"
+  },
+  "onboardComponents": [
+    "pixel"
+  ],
+  "marginWhenBreadboarding": [
+    0,
+    0,
+    80,
+    0
+  ],
+  "spiPins": {
+    "MOSI": "MOSI",
+    "MISO": "MISO",
+    "SCK": "SCK"
+  }
+}

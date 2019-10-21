@@ -1,0 +1,47 @@
+{
+    "name": "kittenbot-bridge",
+    "description": "The kittenbot bridge mainboard",
+    "files": [
+        "README.md",
+        "device.d.ts",
+        "config.ts",
+        "ns.ts",
+        "board.json",
+        "bridge.svg"
+    ],
+    "dependencies": {
+        "core---samd51": "*",
+        "pixel": "*",
+        "light": "*",
+        "buttons": "*",
+        "jacdac": "*",
+        "lightsensor": "*",
+        "thermometer": "*"
+    },
+    "core": true,
+    "public": true,
+    "compileServiceVariant": "samd51",
+    "features": [
+        "uf2",
+        "pinled",
+        "pind0",
+        "pind1",
+        "pina0",
+        "pina1",
+        "buttond0",
+        "buttond1",
+        "screen",
+        "jacdac",
+        "pixel",
+        "light",
+        "accelerometer",
+        "lcd",
+        "music",
+        "therometer"
+    ],
+    "targetVersions": {
+        "target": "0.11.7"
+    },
+    "icon": "kittenbot-bridge.jpg",
+    "installedVersion": "embed:kittenbot-bridge"
+}
